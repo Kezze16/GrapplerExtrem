@@ -665,6 +665,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3277484121836085872, guid: 8deaaaa539d921a42aa2be67df5c91ed, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3277484122086819926, guid: 8deaaaa539d921a42aa2be67df5c91ed, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -724,6 +728,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5615958791072091689, guid: b31110a7053358c488a4ee88afb2ef58, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5615958791307852884, guid: b31110a7053358c488a4ee88afb2ef58, type: 3}
       propertyPath: m_Name
       value: BigIsland
