@@ -191,7 +191,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1d72ad63d1c2bcc4c93c78b8caf2ca95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -293,6 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235136773}
   - component: {fileID: 1235136772}
+  - component: {fileID: 1235136774}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -377,6 +378,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1235136774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235136771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1314814248
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +542,7 @@ Transform:
   m_Children:
   - {fileID: 1314814249}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104135073
 GameObject:
@@ -596,7 +617,7 @@ Transform:
   - {fileID: 297954797}
   - {fileID: 108091743}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1316855096311799770
 PrefabInstance:
@@ -671,7 +692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3277484122086819926, guid: 8deaaaa539d921a42aa2be67df5c91ed, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3277484122086819926, guid: 8deaaaa539d921a42aa2be67df5c91ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -797,7 +818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6235540976370751307, guid: b3b0d13bf470bd643bfa18403840af64, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6235540976370751307, guid: b3b0d13bf470bd643bfa18403840af64, type: 3}
       propertyPath: m_LocalPosition.x
