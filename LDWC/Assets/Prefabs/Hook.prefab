@@ -222,8 +222,40 @@ Transform:
   m_LocalScale: {x: 3.4876056, y: 3.4876053, z: 3.4876056}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1203879292650384472}
   - {fileID: 2213173697974164427}
   - {fileID: 2213173698363114960}
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 12.121, z: 0}
+--- !u!1 &3551348945049402111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203879292650384472}
+  m_Layer: 0
+  m_Name: Hoockable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203879292650384472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3551348945049402111}
+  m_LocalRotation: {x: -0, y: -0.21076384, z: -0, w: 0.9775371}
+  m_LocalPosition: {x: -0.4088, y: -0.47, z: 1.9174}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2213173699128332816}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -24.334, z: 0}
