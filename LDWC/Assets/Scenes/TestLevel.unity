@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &734073713 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6272870015928382110, guid: c5ecded3f968cdf46a4d4939acd82b70, type: 3}
+  m_PrefabInstance: {fileID: 6272870014974789369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1065317852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -833,6 +838,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -73.17
       objectReference: {fileID: 0}
+    - target: {fileID: 6408659797375386768, guid: fe3624bcab1d87f4fa919299878f385c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6603724234554247680, guid: fe3624bcab1d87f4fa919299878f385c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1016,6 +1025,25 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fe3624bcab1d87f4fa919299878f385c, type: 3}
+--- !u!1 &1857366373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6347292101608765990, guid: fe3624bcab1d87f4fa919299878f385c, type: 3}
+  m_PrefabInstance: {fileID: 1842188864}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857366379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857366373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16dca9d2634bb54dbb986c87ba28017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupEffect: {fileID: 8300000, guid: 35dda70205a914e4287a7b51d3aa6b9d, type: 3}
+  source: {fileID: 734073713}
 --- !u!1001 &523803771993741610
 PrefabInstance:
   m_ObjectHideFlags: 0
