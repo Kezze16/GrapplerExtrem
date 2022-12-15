@@ -8,12 +8,14 @@ public class Respawn : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private Transform respawnPosition;
 
+    public GameObject playerHealth;
+    public GameObject healthBar;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            player.transform.position = respawnPosition.transform.position;
-            Physics.SyncTransforms();
+            RespawnPlayer();
         }
     }
 
@@ -21,8 +23,20 @@ public class Respawn : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            player.transform.position = respawnPosition.transform.position;
-            Physics.SyncTransforms();
+            RespawnPlayer();
         }
+    }
+
+    public void RespawnPlayer()
+    {
+        player.transform.position = respawnPosition.transform.position;
+        Physics.SyncTransforms();
+        
+        PlayerHealth ph = playerHealth.GetComponent<PlayerHealth>();
+        ph.Reset();
+        
+        HealthBar hb = healthBar.GetComponent<HealthBar>();
+        hb.SetHealth(100);
+        
     }
 }
