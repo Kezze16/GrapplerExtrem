@@ -370,9 +370,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1.5
+  m_Height: 2.0753875
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.013622602, z: 0}
 --- !u!1 &2594299570709573756
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,5 +715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef29f1b442d772a4b9a92753e743f8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnTrigger: {fileID: 0}
   health: 100
   HealthBar: {fileID: 0}

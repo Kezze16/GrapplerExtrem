@@ -40,7 +40,7 @@ public class EnemyAttack : MonoBehaviour
       
       //Debug.DrawRay(transform.position, direction, Color.red, maxDistance );
 
-      if (fireRate <= 0 && hit.transform.CompareTag("Player"))
+      if(fireRate <= 0 && hit.transform.CompareTag("Player"))
       {
          fireRate = rate; 
          Shoot();
