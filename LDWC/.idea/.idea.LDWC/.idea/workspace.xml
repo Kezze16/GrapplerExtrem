@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/EndTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671117587594</updated>
       <workItem from="1671117602394" duration="815000" />
-      <workItem from="1671187010753" duration="618000" />
+      <workItem from="1671187010753" duration="5881000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876584773563164048}
-  - component: {fileID: 876584773563164047}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -33,18 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &876584773563164047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876584773563164049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1d7108156dcc45449c1361c7e72cbf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &876584774317146524
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +45,7 @@ GameObject:
   - component: {fileID: 876584774317146521}
   - component: {fileID: 876584774317146522}
   m_Layer: 0
-  m_Name: ew
+  m_Name: EnemyGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +124,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876584774317146524}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -274,6 +261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1d7108156dcc45449c1361c7e72cbf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupEffect: {fileID: 8300000, guid: 810b644280b4a7a4dbba9be660c04104, type: 3}
+  source: {fileID: 0}
 --- !u!114 &876584774473343577
 MonoBehaviour:
   m_ObjectHideFlags: 0
