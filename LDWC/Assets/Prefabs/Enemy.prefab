@@ -31,7 +31,7 @@ Transform:
   m_Children:
   - {fileID: 875236463782342368}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &876584773563164047
 MonoBehaviour:
@@ -262,6 +262,18 @@ CapsuleCollider:
   m_Height: 2.0323248
   m_Direction: 1
   m_Center: {x: 0, y: 1.0174243, z: 0.026983708}
+--- !u!114 &876584774473343576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877308462552340934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d7108156dcc45449c1361c7e72cbf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &876584774473343577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,16 +289,5 @@ MonoBehaviour:
   projectile: {fileID: 8334113419184148766, guid: 47fa30256ed630e4daeb6e3cfd61f246, type: 3}
   shootPoint: {fileID: 876584775103638443}
   turnSpeed: 5
+  maxDistance: 60
   rate: 1
---- !u!114 &876584774473343576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877308462552340934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1d7108156dcc45449c1361c7e72cbf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
